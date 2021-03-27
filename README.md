@@ -1,18 +1,18 @@
 # Web Components Template
 
-## Dependencies
+Just a simple, `yarn install` and `yarn dev`.
+
+### Dependencies
 
 - Lit Element 
-- Parcel Js Bundler
+- Parcel (Bundler)
 
-## Linters
+### Linters
+
 - prettier
 - eslint
 - ts-lit-plugin
 - lit-html (VSCode Extension)
 
-
-
-**Image Optimization**:
-
-  If you want to optimize images on build, you can do so with parcel and a external library [sharp.js](https://v2.parceljs.org/recipes/image/)
+**Note**:
+If you want to optimize images on build process -- [sharp.js](https://v2.parceljs.org/recipes/image/)
