@@ -1,3 +1,6 @@
+// Add normalize to the project
+import "normalize.css";
+
 // Components
 import "./lit-counter";
 
