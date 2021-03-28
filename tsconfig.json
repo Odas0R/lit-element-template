@@ -27,6 +27,6 @@
       }
     ]
   },
-  "include": ["src/**/*.ts"],
+  "include": ["index.d.ts", "src/**/*.ts"],
   "exclude": []
 }

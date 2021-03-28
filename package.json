@@ -6,7 +6,10 @@
   "license": "MIT",
   "scripts": {
     "dev": "rm -rf dist .parcel-cache && parcel serve './src/pages/**/*.html' --log-level info --open",
-    "build": "parcel build './src/pages/**/*.html'"
+    "build": "parcel build './src/pages/**/*.html'",
+    "lint": "yarn lint:eslint && yarn lint:css",
+    "lint:eslint": "eslint 'src/**/*.ts'",
+    "lint:css": "stylelint \"src/**/*.js\""
   },
   "dependencies": {
     "lit-element": "^2.4.0",
@@ -23,6 +26,10 @@
     "eslint": "^7.23.0",
     "parcel": "^2.0.0-beta.2",
     "prettier": "^2.2.1",
+    "stylelint": "^13.12.0",
+    "stylelint-config-recommended": "^4.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.10.0",
     "ts-lit-plugin": "^1.2.1"
   },
   "browserslist": "> 0.2%"
